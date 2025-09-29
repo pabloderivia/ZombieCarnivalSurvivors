@@ -1,0 +1,70 @@
+# =============== #
+# Windows basura  #
+# =============== #
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+
+# ================= #
+# Visual Studio Code #
+# ================= #
+.vscode/
+.history/
+*.code-workspace
+
+# ================= #
+# Unity             #
+# ================= #
+
+# Archivos generados por Unity
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# Caché de Asset Store
+AssetStore/
+
+# Compilados
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Archivos de Visual Studio
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Sistema de colab de Unity
+. collabignore
+
+# Archivos de crash
+sysinfo.txt
+
+# ================================= #
+# Opcional: ignorar paquetes grandes #
+# ================================= #
+# Si usas el Package Manager de Unity, ignora los paquetes descargados
+Packages/com.unity.package-manager/
+
+# Si quieres ignorar builds exportadas
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.ipa
+*.exe
+*.app
+*.dll
